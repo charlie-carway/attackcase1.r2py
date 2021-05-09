@@ -1,0 +1,7 @@
+#log(Attack case 2: begin)
+if "mlfile.txt.a" in listfiles():
+  removefile("mlfile.txt.a")
+if "mlfile.txt.b" in listfiles():
+  removefile("mlfile.txt.b")
+myfile = ABopenfile("mlfile.txt", False)
+myfile.close()
